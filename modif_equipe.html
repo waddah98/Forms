@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Title</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+        <!-- Lato Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+        <!-- Raleway Font -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- colonne 1 -->
+            <div class="col-md-6" id="colonne1">
+                <h2>Modification d'équipe</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputnom" class="form-label">Nom de l'équipe</label>
+                        <input type="nom" class="form-control" id="exampleInputnom" >
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputprenom" class="form-label">Nombre maximale de stagiaires</label>
+                        <input type="prenom" class="form-control" id="exampleInputprenom">
+                    </div>
+                    
+                    <div class="mb-3">
+                        <div class="row">
+                        
+                        <label for="horaire" class="form-label">Durée de stage</label>
+                        <div class="col-md-6">
+                        <label for="appt" class="form-label">De</label>
+                        <input type="time" class="form-control" id="appt" name="appt" min="07:00" max="18:00" required />
+                        </div>
+                        <div class="col-md-6">
+                        <label for="appt" class="form-label">à</label>
+                        <input type="time" class="form-control" id="appt" name="appt" min="07:00" max="18:00" required />
+                    </div>
+                        
+                </form>    
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="row justify-content-end">
+                <div class="col-auto">
+                    <button class="btn btn-primary" id="button_annuler">Annuler</button>
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-primary" id="button_Modif">Modifier</button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
