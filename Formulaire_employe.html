@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Lato Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+    <!-- Raleway Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <!-- colonne 1 -->
+            <div class="col-md-6" id="colonne1">
+                <h2>Ajout d'un utilisateur</h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputnom" class="form-label">Nom</label>
+                      <input type="nom" class="form-control" id="exampleInputnom" >
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputprenom" class="form-label">Prénom</label>
+                      <input type="prenom" class="form-control" id="exampleInputprenom">
+                    </div>
+                    
+                    <!-- email -->
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleInputtel" class="form-label">N° Tel </label>
+                        <input type="tel" class="form-control" id="exampleInputtel">
+                      </div>
+                    <!-- list -->
+                    <div class="mb-3">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Type</option>
+                        <option value="1">Visiteur</option>
+                        <option value="2">Employé</option>
+                        <option value="3">Stagiaire</option>
+                        <option value="4">VIP</option>
+                      </select>
+                    </div>
+                    
+                </form>    
+            </div>
+
+
+            <!-- colonne2 --> 
+            
+            <div class="col-md-6" id="colonne2">
+              <h2>Ajout d'un employé</h2>
+              <form>
+
+                  <div class="mb-3">
+                    <label for="duree" class="form-label">Titre d'emploi</label>
+                    <input type="prenom" class="form-control" id="duree">
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="duree" class="form-label">Date de l'affectation de la carte</label>
+                    <input type="prenom" class="form-control" id="duree">
+                  </div>
+
+                  <div class="mb-3">
+                    <div class="row">
+                      <label for="horaire" class="form-label">Horaires d'accès</label>
+                      <div class="col-md-6">
+                      <label for="appt" class="form-label">De</label>
+                      <input type="time" class="form-control" id="appt" name="appt" min="07:00" max="18:00" required />
+                      </div>
+                      <div class="col-md-6">
+                      <label for="appt" class="form-label">à</label>
+                      <input type="time" class="form-control" id="appt" name="appt" min="07:00" max="18:00" required />
+                      </div>
+                    </div>
+                  </div>
+
+                    
+                  
+                  
+                  
+              </form>    
+          </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

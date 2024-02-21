@@ -1,0 +1,14 @@
+body {
+    font-family: 'Lato', sans-serif; 
+}
+h2 {
+    font-family: 'Raleway', sans-serif; 
+}
+#colonne1{
+padding: 20px;
+}
+#colonne2 {
+    background-color: #4835D4;
+    color: white; /* Text color on the background */
+    padding: 20px; /* Add some padding for better appearance */
+}
