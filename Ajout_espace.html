@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Title</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Lato Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap">
+    <!-- Raleway Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway&display=swap">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div  class="row">
+            <!-- colonne 1 -->
+            <div class="col-md-6" id=" colonne1">
+                <h2>Géneration d'un espace : </h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="nomEspace" class="form-label">Nom de l'espace : </label>
+                      <input type="nom" class="form-control" id="nomEspace" >
+                    </div>
+                    <div  class="mb-3">
+                      <label for="exampleInputprenom" class="form-label">Lecteur(s) pour :</label>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                        <label class="form-check-label" for="flexCheckDefault">
+                          L'entrée
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+                        <label class="form-check-label" for="flexCheckChecked">
+                          sortie
+                        </label>
+                      </div>
+ 
+
+                    </div>
+                
+                    
+                </form>    
+            </div>
+            
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-6"> 
+                <div class="row justify-content-end">
+                    <div class="col-auto">
+                        <button class="btn btn-primary" id="button_annuler">Annuler</button>
+                    </div>
+                    <div class="col-auto">
+                        <button class="btn btn-primary" id="button_ajout">Générer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+</tbody>
